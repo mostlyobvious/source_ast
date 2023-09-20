@@ -8,6 +8,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    minitest (5.20.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
       racc
@@ -19,6 +20,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  minitest
   rake (~> 13.0)
   source_ast!
 

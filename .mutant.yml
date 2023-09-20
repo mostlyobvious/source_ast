@@ -1,0 +1,10 @@
+# https://github.com/mbj/mutant/blob/master/docs/configuration.md
+
+requires:
+  - source_ast
+includes:
+  - lib
+integration: minitest
+matcher:
+  subjects:
+    - SourceAst*

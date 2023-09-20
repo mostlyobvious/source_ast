@@ -10,4 +10,10 @@ class Fixture
   def dudu
     puts "kaka"
   end
+
+  module SomethingElse
+    def call
+      puts "dudu kaka"
+    end
+  end
 end

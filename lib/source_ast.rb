@@ -11,7 +11,7 @@ module SourceAst
 
     def initialize(owner, name)
       @owner = owner
-      @name  = name
+      @name = name
     end
 
     def on_class(node)
